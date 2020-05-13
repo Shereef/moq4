@@ -28,7 +28,7 @@
 		<ProjectReference Include="..\Moq.Tests.FSharpTypes\Moq.Tests.FSharpTypes.fsproj" />
 	</ItemGroup>
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
-		<PackageReference Include="EntityFramework" Version="6.2.0" />
+		<PackageReference Include="EntityFramework" Version="6.4.4" />
 		<Reference Include="System.Web" />
 		<Reference Include="System.Windows.Forms" />
 		<Reference Include="Moq.Tests.ComTypes">
