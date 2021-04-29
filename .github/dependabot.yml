@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: System.ServiceModel.Primitives
+    versions:
+    - 4.8.0
+  - dependency-name: FSharp.Core
+    versions:
+    - 5.0.0
